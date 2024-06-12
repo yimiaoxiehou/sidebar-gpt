@@ -1,0 +1,107 @@
+{
+  "questionPlaceholder": "Ask me anything you want or use / to add a prompt",
+  "loginButton": "Login on OpenAI",
+  "gptApiError": "Please login on OpenAI and pass Cloudflare check.",
+  "gptApiKeyError": "Incorrect API key. You can find your API key at",
+  "paste": "paste",
+  "copied": "copied",
+  "login": "Log In",
+  "signup": "Sign Up",
+  "save": "Save",
+  "close": "Close",
+  "cancel": "Cancel",
+  "remove": "Remove",
+  "send": "Send",
+  "sent": "Sent",
+  "error": "Error",
+  "name": "Name",
+  "avatars": "Avatars",
+  "sending": "Sending",
+  "onlyOneMessagePerDay": "Sorry, you can post only one message per day",
+  "language": "Language",
+  "suggestion": "Suggestion",
+  "preferredLanguage": "Preferred Language",
+  "hotkey": "Hotkey",
+  "launch": "Launch",
+  "customize": "customize",
+  "icon": "Icon",
+  "apiKey": "API Key",
+  "rateUs": "Rate Us",
+  "loginPage": {
+    "subtitle": "Access ChatGPT AI language model everywhere with SidebarGPT chat assistant for Chrome.",
+    "footer": "For a more stable connection use the"
+  },
+  "options": {
+    "general": "General",
+    "promptTemplates": "Prompt Templates",
+    "searchPageTitle": "Search Page",
+    "howToUse": "How to Use",
+    "suggestions": "Suggestions",
+    "accessToChatGPT": "Access to ChatGPT",
+    "generalPage": {
+      "method1Subtitle": "Faster chat answers, but an unstable connection.",
+      "method2Subtitle": "More stable connection, but slow chat answers.",
+      "method2Link": "Follow the guide to get the API key",
+      "iconSubtitle": "Access the sidebar through the bottom right-corner icon",
+      "iconWhenSelected": "Show when text is selected",
+      "showAvatars": "Show Avatars",
+      "openAiApiTitle": "OpenAI API (recommended)"
+    },
+    "searchPage": {
+      "showSearchPanel": "Show Search Panel",
+      "whenToAskChatGPT": "When to ask ChatGPT",
+      "promptTemplate": "Prompt template",
+      "templateInfo": "Template Info",
+
+      "searchPagePanelTitle": "Display ChatGPT response",
+      "always": "Always",
+      "alwaysTriggerSubtitle": "Ask ChatGPT on every search",
+      "questionMark": "Question mark",
+      "questionMarkTriggerSubtitle": "Ask ChatGPT if keywords end with a question mark (?)",
+      "manually": "Manually",
+      "manuallyTriggerSubtitle": "Ask ChatGPT only on button click",
+      "addNewTemplate": "Add new template",
+      "editTemplate": "Edit template",
+      "templateName": "Template name",
+      "templateContent": "Template content",
+      "templateContentPlaceholder": "$[keywords] in the hint content will be automatically replaced with your search keywords",
+      "templateContentFormError": "use $[keywords] to refer to your search keywords",
+      "templateContentFormFillError": "Template content is required."
+    },
+    "promptTemplatesPage": {
+      "addTemplate": "Add new prompt template",
+      "editTemplate": "Edit prompt template",
+      "promptName": "Prompt Name",
+      "promptTemplate": "Prompt Template"
+    },
+    "suggestionsPage": {
+      "title": "Thank you for using SidebarGPT",
+      "subtitle": "If you have a moment, please tell us how we can make SidebarGPT better. Your feedback helps us improve the product for everyone, thank you."
+    },
+    "apiKeyModal": {
+      "step1": "Step 1: Go to official ChatGPT website to get API key",
+      "step1_1_link": "Log In to your ChatGPT account.",
+      "step1_1": "If you don't have an account, please",
+      "step1_2": "Visit the",
+      "step1_2_link": "OpenAI API key page.",
+      "step1_3": "Create a new secret key and copy it as follow.",
+      "step2": "Step 2: Paste API Key in the box below"
+    }
+  },
+
+  "searchHelper": {
+    "askGPT": "Ask ChatGPT for this query",
+    "continueInChat": "Continue in Chat"
+  },
+
+  "searchPageTemplates": {
+    "default_template_name": "Default",
+    "default_template_content": "Could you tell me something about $[keywords]? If possible, could you give me some links about it? If the $[keywords] question is code related, just post the code",
+
+    "question_keywords_template_name": "Keywords for questions",
+    "question_keywords_template_content": "List your most popular question about $[keywords]. Then answer this question. Finally, list 4 more questions.",
+
+    "keywords_template_name": "Get related keywords",
+    "keywords_template_content": "$[keywords] are my Google search keywords. Please give me 5 sets of related keywords."
+  }
+}

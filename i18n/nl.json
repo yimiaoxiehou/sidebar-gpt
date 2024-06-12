@@ -1,0 +1,102 @@
+{
+    "questionPlaceholder": "Vraag me alles of gebruik \/ om een \u200b\u200bprompt toe te voegen",
+    "loginButton": "Log in op OpenAI",
+    "gptApiError": "Log in op OpenAI en passeer de Cloudflare-controle.",
+    "gptApiKeyError": "Onjuiste API-sleutel. U kunt uw API-sleutel vinden op",
+    "paste": "Plakken",
+    "copied": "gekopieerd",
+    "login": "Log in",
+    "signup": "Aanmelden",
+    "save": "Redden",
+    "close": "Dichtbij",
+    "cancel": "Annuleren",
+    "remove": "Verwijderen",
+    "send": "Versturen",
+    "sent": "Verstuurd",
+    "error": "Fout",
+    "name": "Naam",
+    "avatars": "Avatars",
+    "sending": "Bezig met verzenden",
+    "onlyOneMessagePerDay": "Sorry, je kunt maar \u00e9\u00e9n bericht per dag plaatsen",
+    "language": "Taal",
+    "suggestion": "Suggestie",
+    "preferredLanguage": "Voorkeurstaal",
+    "hotkey": "Sneltoets",
+    "launch": "Launch",
+    "customize": "aanpassen",
+    "icon": "Icoon",
+    "apiKey": "API sleutel",
+    "rateUs": "Beoordeel ons",
+    "loginPage": {
+        "subtitle": "Overal toegang tot het ChatGPT AI-taalmodel met SidebarGPT-chatassistent voor Chrome.",
+        "footer": "Gebruik voor een stabielere verbinding de"
+    },
+    "options": {
+        "general": "Algemeen",
+        "promptTemplates": "Prompt-sjablonen",
+        "searchPageTitle": "Zoek pagina",
+        "howToUse": "Hoe te gebruiken",
+        "suggestions": "Suggesties",
+        "accessToChatGPT": "Toegang tot ChatGPT",
+        "generalPage": {
+            "method1Subtitle": "Snellere chatantwoorden, maar een onstabiele verbinding.",
+            "method2Subtitle": "Stabielere verbinding, maar trage chatantwoorden.",
+            "method2Link": "Volg de gids om de API-sleutel te krijgen",
+            "iconSubtitle": "Toegang tot de zijbalk via het pictogram in de rechterbenedenhoek",
+            "iconWhenSelected": "Weergeven wanneer tekst is geselecteerd",
+            "showAvatars": "Avatars tonen",
+            "openAiApiTitle": "OpenAI-API (aanbevolen)"
+        },
+        "searchPage": {
+            "showSearchPanel": "Toon zoekvenster",
+            "whenToAskChatGPT": "Wanneer ChatGPT vragen",
+            "promptTemplate": "Prompt-sjabloon",
+            "templateInfo": "Sjablooninfo",
+            "searchPagePanelTitle": "ChatGPT-antwoord weergeven",
+            "always": "Altijd",
+            "alwaysTriggerSubtitle": "Vraag ChatGPT bij elke zoekopdracht",
+            "questionMark": "Vraagteken",
+            "questionMarkTriggerSubtitle": "ChatGPT vragen of zoekwoorden eindigen op een vraagteken (?)",
+            "manually": "Handmatig",
+            "manuallyTriggerSubtitle": "Vraag ChatGPT alleen bij klikken op de knop",
+            "addNewTemplate": "Nieuwe sjabloon toevoegen",
+            "editTemplate": "Sjabloon bewerken",
+            "templateName": "Sjabloon naam",
+            "templateContent": "Sjabloon inhoud",
+            "templateContentPlaceholder": "$[keywords] in de hintinhoud wordt automatisch vervangen door uw zoekwoorden",
+            "templateContentFormError": "gebruik $[keywords] om naar uw zoekwoorden te verwijzen",
+            "templateContentFormFillError": "Sjablooninhoud is vereist."
+        },
+        "promptTemplatesPage": {
+            "addTemplate": "Nieuwe aanwijzingssjabloon toevoegen",
+            "editTemplate": "Prompt-sjabloon bewerken",
+            "promptName": "Prompt naam",
+            "promptTemplate": "Prompt-sjabloon"
+        },
+        "suggestionsPage": {
+            "title": "Bedankt voor het gebruik van SidebarGPT",
+            "subtitle": "Als u even de tijd heeft, kunt u ons vertellen hoe we SidebarGPT kunnen verbeteren. Uw feedback helpt ons het product voor iedereen te verbeteren, bedankt."
+        },
+        "apiKeyModal": {
+            "step1": "Stap 1: Ga naar de offici\u00eble ChatGPT-website om de API-sleutel te krijgen",
+            "step1_1_link": "Log in op uw ChatGPT-account.",
+            "step1_1": "Als u geen account heeft, alstublieft",
+            "step1_2": "Bezoek de",
+            "step1_2_link": "OpenAI API-sleutelpagina.",
+            "step1_3": "Maak een nieuwe geheime sleutel en kopieer deze als volgt.",
+            "step2": "Stap 2: Plak de API-sleutel in het onderstaande vak"
+        }
+    },
+    "searchHelper": {
+        "askGPT": "Stel deze vraag aan ChatGPT",
+        "continueInChat": "Ga verder in Chatten"
+    },
+    "searchPageTemplates": {
+        "default_template_name": "Standaard",
+        "default_template_content": "Kun je me iets vertellen over $[keywords]? Zou je me, indien mogelijk, wat links hierover kunnen geven? Als de vraag $[keywords] codegerelateerd is, plaatst u gewoon de code",
+        "question_keywords_template_name": "Trefwoorden voor vragen",
+        "question_keywords_template_content": "Maak een lijst van uw meest populaire vraag over $[keywords]. Beantwoord dan deze vraag. Noteer ten slotte nog 4 vragen.",
+        "keywords_template_name": "Verkrijg gerelateerde zoekwoorden",
+        "keywords_template_content": "$[keywords] zijn mijn Google-zoekwoorden. Geef me alsjeblieft 5 sets gerelateerde zoekwoorden."
+    }
+}

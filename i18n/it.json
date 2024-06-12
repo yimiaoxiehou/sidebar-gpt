@@ -1,0 +1,102 @@
+{
+    "questionPlaceholder": "Chiedimi qualsiasi cosa o usa \/ per aggiungere un prompt",
+    "loginButton": "Accedi su OpenAI",
+    "gptApiError": "Accedi a OpenAI e supera il controllo Cloudflare.",
+    "gptApiKeyError": "Chiave API errata. Puoi trovare la tua chiave API su",
+    "paste": "impasto",
+    "copied": "copiato",
+    "login": "Login",
+    "signup": "Iscrizione",
+    "save": "Salva",
+    "close": "Vicino",
+    "cancel": "Annulla",
+    "remove": "Rimuovere",
+    "send": "Inviare",
+    "sent": "Inviato",
+    "error": "Errore",
+    "name": "Nome",
+    "avatars": "Avatar",
+    "sending": "Invio",
+    "onlyOneMessagePerDay": "Spiacenti, puoi pubblicare un solo messaggio al giorno",
+    "language": "Lingua",
+    "suggestion": "Suggerimento",
+    "preferredLanguage": "Lingua preferita",
+    "hotkey": "Tasto di scelta rapida",
+    "launch": "Lancio",
+    "customize": "personalizzare",
+    "icon": "Icona",
+    "apiKey": "Chiave dell'API",
+    "rateUs": "Valutaci",
+    "loginPage": {
+        "subtitle": "Accedi al modello linguistico ChatGPT AI ovunque con l'assistente chat SidebarGPT per Chrome.",
+        "footer": "Per una connessione pi\u00f9 stabile utilizzare il"
+    },
+    "options": {
+        "general": "Generale",
+        "promptTemplates": "Modelli rapidi",
+        "searchPageTitle": "Pagina di ricerca",
+        "howToUse": "Come usare",
+        "suggestions": "Suggerimenti",
+        "accessToChatGPT": "Accesso a ChatGPT",
+        "generalPage": {
+            "method1Subtitle": "Risposte chat pi\u00f9 veloci, ma connessione instabile.",
+            "method2Subtitle": "Connessione pi\u00f9 stabile, ma risposte chat lente.",
+            "method2Link": "Segui la guida per ottenere la chiave API",
+            "iconSubtitle": "Accedi alla barra laterale tramite l'icona in basso a destra",
+            "iconWhenSelected": "Mostra quando il testo \u00e8 selezionato",
+            "showAvatars": "Mostra avatar",
+            "openAiApiTitle": "API OpenAI (consigliata)"
+        },
+        "searchPage": {
+            "showSearchPanel": "Mostra pannello di ricerca",
+            "whenToAskChatGPT": "Quando chiedere a ChatGPT",
+            "promptTemplate": "Modello rapido",
+            "templateInfo": "Informazioni sul modello",
+            "searchPagePanelTitle": "Visualizza la risposta ChatGPT",
+            "always": "Sempre",
+            "alwaysTriggerSubtitle": "Chiedi a ChatGPT su ogni ricerca",
+            "questionMark": "Punto interrogativo",
+            "questionMarkTriggerSubtitle": "Chiedi a ChatGPT se le parole chiave terminano con un punto interrogativo (?)",
+            "manually": "Manualmente",
+            "manuallyTriggerSubtitle": "Chiedi a ChatGPT solo al clic del pulsante",
+            "addNewTemplate": "Aggiungi nuovo modello",
+            "editTemplate": "Modifica modello",
+            "templateName": "Nome modello",
+            "templateContent": "Contenuto del modello",
+            "templateContentPlaceholder": "$[keywords] nel contenuto del suggerimento verr\u00e0 automaticamente sostituito con le parole chiave di ricerca",
+            "templateContentFormError": "usa $[keywords] per fare riferimento alle tue parole chiave di ricerca",
+            "templateContentFormFillError": "Il contenuto del modello \u00e8 obbligatorio."
+        },
+        "promptTemplatesPage": {
+            "addTemplate": "Aggiungi un nuovo modello di richiesta",
+            "editTemplate": "Modifica modello di richiesta",
+            "promptName": "Nome rapido",
+            "promptTemplate": "Modello rapido"
+        },
+        "suggestionsPage": {
+            "title": "Grazie per aver utilizzato SidebarGPT",
+            "subtitle": "Se hai un momento, dicci come possiamo migliorare SidebarGPT. Il tuo feedback ci aiuta a migliorare il prodotto per tutti, grazie."
+        },
+        "apiKeyModal": {
+            "step1": "Passaggio 1: vai al sito Web ufficiale di ChatGPT per ottenere la chiave API",
+            "step1_1_link": "Accedi al tuo account ChatGPT.",
+            "step1_1": "Se non hai un account, per favore",
+            "step1_2": "Visitare il",
+            "step1_2_link": "Pagina della chiave dell'API OpenAI.",
+            "step1_3": "Crea una nuova chiave segreta e copiala come segue.",
+            "step2": "Passaggio 2: incolla la chiave API nella casella sottostante"
+        }
+    },
+    "searchHelper": {
+        "askGPT": "Chiedi a ChatGPT questa query",
+        "continueInChat": "Continua in Chat"
+    },
+    "searchPageTemplates": {
+        "default_template_name": "Predefinito",
+        "default_template_content": "Potresti dirmi qualcosa su $[keywords]? Se possibile, potresti darmi qualche link a riguardo? Se la domanda $[keywords] \u00e8 correlata al codice, pubblica semplicemente il codice",
+        "question_keywords_template_name": "Parole chiave per domande",
+        "question_keywords_template_content": "Elenca la tua domanda pi\u00f9 popolare su $[keywords]. Allora rispondi a questa domanda. Infine, elenca altre 4 domande.",
+        "keywords_template_name": "Ottieni parole chiave correlate",
+        "keywords_template_content": "$[keywords] sono le mie parole chiave di ricerca su Google. Per favore, dammi 5 serie di parole chiave correlate."
+    }
+}

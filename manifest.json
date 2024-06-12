@@ -1,0 +1,47 @@
+{
+   "action": {
+      "default_icon": "assets/icons/128.png",
+      "default_title": "__MSG_name__"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "open-sidebar": {
+         "description": "Launch SidebarGPT",
+         "suggested_key": {
+            "default": "Alt+E",
+            "linux": "Alt+E",
+            "mac": "Command+E",
+            "windows": "Alt+E"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "content-sidebar.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "content-search-helper.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "assets/icons/128.png",
+      "32": "assets/icons/32.png",
+      "64": "assets/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz5mr7s+L5ErpiowhyF0v6uH7OnBqVFCqUFvZ40BvaN2eG06l9dq8ujwln/+nDr4pfAOQiMuVXwiJ8xqIyS5NiNjXug0r9Byg9iwkGZ2nhYRVPaHeqXBJQMycQYyEIDGLh5uR8fVJJKp5avzQxkxzm+uGqovAeAECjMIBiBJ4njIvz5fWcCVQhFdkr41vTt2fWiARIJ7KE3NMfF6qwrq4jAQ57WHcp/MuGKngeo0F/OfPl6ax7VyVAcHMQCNRuRn7h8OPk7b5gRPtpGwsh765YLhXVUXepetNNjq9Ct/10lXli6oeMH8zAr16PbJsUUQMGuCK7anmtSpoyQwry5DnfwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_name__",
+   "options_page": "./options.html",
+   "permissions": [ "storage", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "*" ]
+   } ]
+}

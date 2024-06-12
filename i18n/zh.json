@@ -1,0 +1,102 @@
+{
+    "questionPlaceholder": "\u95ee\u6211\u4efb\u4f55\u95ee\u9898\u6216\u4f7f\u7528 \/ \u6dfb\u52a0\u63d0\u793a",
+    "loginButton": "\u767b\u5f55 OpenAI",
+    "gptApiError": "\u8bf7\u767b\u5f55 OpenAI \u5e76\u901a\u8fc7 Cloudflare \u68c0\u67e5\u3002",
+    "gptApiKeyError": "API \u5bc6\u94a5\u4e0d\u6b63\u786e\u3002\u60a8\u53ef\u4ee5\u5728\u4ee5\u4e0b\u4f4d\u7f6e\u627e\u5230\u60a8\u7684 API \u5bc6\u94a5",
+    "paste": "\u7c98\u8d34",
+    "copied": "\u590d\u5236",
+    "login": "\u767b\u5f55",
+    "signup": "\u62a5\u540d",
+    "save": "\u8282\u7701",
+    "close": "\u5173\u95ed",
+    "cancel": "\u53d6\u6d88",
+    "remove": "\u6d88\u9664",
+    "send": "\u53d1\u9001",
+    "sent": "\u53d1\u9001",
+    "error": "\u9519\u8bef",
+    "name": "\u59d3\u540d",
+    "avatars": "\u5316\u8eab",
+    "sending": "\u53d1\u9001\u4e2d",
+    "onlyOneMessagePerDay": "\u62b1\u6b49\uff0c\u60a8\u6bcf\u5929\u53ea\u80fd\u53d1\u4e00\u6761\u6d88\u606f",
+    "language": "\u8bed\u8a00",
+    "suggestion": "\u5efa\u8bae",
+    "preferredLanguage": "\u9996\u9009\u8bed\u8a00",
+    "hotkey": "\u70ed\u952e",
+    "launch": "\u53d1\u5c04",
+    "customize": "\u5b9a\u5236",
+    "icon": "\u56fe\u6807",
+    "apiKey": "API\u5bc6\u94a5",
+    "rateUs": "\u8bc4\u4ef7\u6211\u4eec",
+    "loginPage": {
+        "subtitle": "\u4f7f\u7528\u9002\u7528\u4e8e Chrome \u7684 SidebarGPT \u804a\u5929\u52a9\u624b\uff0c\u968f\u65f6\u968f\u5730\u8bbf\u95ee ChatGPT AI \u8bed\u8a00\u6a21\u578b\u3002",
+        "footer": "\u8981\u83b7\u5f97\u66f4\u7a33\u5b9a\u7684\u8fde\u63a5\uff0c\u8bf7\u4f7f\u7528"
+    },
+    "options": {
+        "general": "\u4e00\u822c\u7684",
+        "promptTemplates": "\u63d0\u793a\u6a21\u677f",
+        "searchPageTitle": "\u641c\u7d22\u9875\u9762",
+        "howToUse": "\u5982\u4f55\u4f7f\u7528",
+        "suggestions": "\u5efa\u8bae",
+        "accessToChatGPT": "\u8bbf\u95ee ChatGPT",
+        "generalPage": {
+            "method1Subtitle": "\u66f4\u5feb\u7684\u804a\u5929\u56de\u7b54\uff0c\u4f46\u8fde\u63a5\u4e0d\u7a33\u5b9a\u3002",
+            "method2Subtitle": "\u8fde\u63a5\u66f4\u7a33\u5b9a\uff0c\u4f46\u804a\u5929\u56de\u7b54\u901f\u5ea6\u8f83\u6162\u3002",
+            "method2Link": "\u6309\u7167\u6307\u5357\u83b7\u53d6 API \u5bc6\u94a5",
+            "iconSubtitle": "\u901a\u8fc7\u53f3\u4e0b\u89d2\u7684\u56fe\u6807\u8bbf\u95ee\u4fa7\u8fb9\u680f",
+            "iconWhenSelected": "\u9009\u62e9\u6587\u672c\u65f6\u663e\u793a",
+            "showAvatars": "\u663e\u793a\u5934\u50cf",
+            "openAiApiTitle": "OpenAI API\uff08\u63a8\u8350\uff09"
+        },
+        "searchPage": {
+            "showSearchPanel": "\u663e\u793a\u641c\u7d22\u9762\u677f",
+            "whenToAskChatGPT": "\u4f55\u65f6\u8be2\u95ee ChatGPT",
+            "promptTemplate": "\u63d0\u793a\u6a21\u677f",
+            "templateInfo": "\u6a21\u677f\u4fe1\u606f",
+            "searchPagePanelTitle": "\u663e\u793a ChatGPT \u54cd\u5e94",
+            "always": "\u603b\u662f",
+            "alwaysTriggerSubtitle": "\u5728\u6bcf\u6b21\u641c\u7d22\u65f6\u8be2\u95ee ChatGPT",
+            "questionMark": "\u95ee\u53f7",
+            "questionMarkTriggerSubtitle": "\u8be2\u95ee ChatGPT \u5173\u952e\u5b57\u662f\u5426\u4ee5\u95ee\u53f7\u7ed3\u5c3e\uff08\uff1f\uff09",
+            "manually": "\u624b\u52a8",
+            "manuallyTriggerSubtitle": "\u4ec5\u5728\u5355\u51fb\u6309\u94ae\u65f6\u8be2\u95ee ChatGPT",
+            "addNewTemplate": "\u6dfb\u52a0\u65b0\u6a21\u677f",
+            "editTemplate": "\u7f16\u8f91\u6a21\u677f",
+            "templateName": "\u6a21\u677f\u540d\u79f0",
+            "templateContent": "\u6a21\u677f\u5185\u5bb9",
+            "templateContentPlaceholder": "$[keywords]\u4e2d\u7684\u63d0\u793a\u5185\u5bb9\u4f1a\u81ea\u52a8\u66ff\u6362\u4e3a\u60a8\u7684\u641c\u7d22\u5173\u952e\u8bcd",
+            "templateContentFormError": "\u4f7f\u7528 $[keywords] \u6765\u5f15\u7528\u60a8\u7684\u641c\u7d22\u5173\u952e\u5b57",
+            "templateContentFormFillError": "\u6a21\u677f\u5185\u5bb9\u662f\u5fc5\u9700\u7684\u3002"
+        },
+        "promptTemplatesPage": {
+            "addTemplate": "\u6dfb\u52a0\u65b0\u7684\u63d0\u793a\u6a21\u677f",
+            "editTemplate": "\u7f16\u8f91\u63d0\u793a\u6a21\u677f",
+            "promptName": "\u63d0\u793a\u540d\u79f0",
+            "promptTemplate": "\u63d0\u793a\u6a21\u677f"
+        },
+        "suggestionsPage": {
+            "title": "\u611f\u8c22\u60a8\u4f7f\u7528 SidebarGPT",
+            "subtitle": "\u5982\u679c\u60a8\u6709\u65f6\u95f4\uff0c\u8bf7\u544a\u8bc9\u6211\u4eec\u5982\u4f55\u8ba9 SidebarGPT \u53d8\u5f97\u66f4\u597d\u3002\u60a8\u7684\u53cd\u9988\u6709\u52a9\u4e8e\u6211\u4eec\u4e3a\u6bcf\u4e2a\u4eba\u6539\u8fdb\u4ea7\u54c1\uff0c\u8c22\u8c22\u3002"
+        },
+        "apiKeyModal": {
+            "step1": "\u7b2c 1 \u6b65\uff1a\u524d\u5f80 ChatGPT \u5b98\u65b9\u7f51\u7ad9\u83b7\u53d6 API \u5bc6\u94a5",
+            "step1_1_link": "\u767b\u5f55\u5230\u60a8\u7684 ChatGPT \u5e10\u6237\u3002",
+            "step1_1": "\u5982\u679c\u60a8\u6ca1\u6709\u5e10\u6237\uff0c\u8bf7",
+            "step1_2": "\u53c2\u89c2",
+            "step1_2_link": "OpenAI API \u5bc6\u94a5\u9875\u9762\u3002",
+            "step1_3": "\u521b\u5efa\u4e00\u4e2a\u65b0\u7684\u5bc6\u94a5\u5e76\u5c06\u5176\u590d\u5236\u5982\u4e0b\u3002",
+            "step2": "\u7b2c 2 \u6b65\uff1a\u5c06 API \u5bc6\u94a5\u7c98\u8d34\u5230\u4e0b\u9762\u7684\u6846\u4e2d"
+        }
+    },
+    "searchHelper": {
+        "askGPT": "\u5411 ChatGPT \u8be2\u95ee\u6b64\u67e5\u8be2",
+        "continueInChat": "\u7ee7\u7eed\u804a\u5929"
+    },
+    "searchPageTemplates": {
+        "default_template_name": "\u9ed8\u8ba4",
+        "default_template_content": "\u4f60\u80fd\u544a\u8bc9\u6211\u4e00\u4e9b\u5173\u4e8e $[keywords] \u7684\u4e8b\u60c5\u5417\uff1f\u5982\u679c\u53ef\u80fd\u7684\u8bdd\uff0c\u4f60\u80fd\u7ed9\u6211\u4e00\u4e9b\u5173\u4e8e\u5b83\u7684\u94fe\u63a5\u5417\uff1f\u5982\u679c$[keywords]\u95ee\u9898\u662f\u4ee3\u7801\u76f8\u5173\u7684\uff0c\u76f4\u63a5\u8d34\u4ee3\u7801",
+        "question_keywords_template_name": "\u95ee\u9898\u5173\u952e\u8bcd",
+        "question_keywords_template_content": "\u5217\u51fa\u5173\u4e8e $[keywords] \u7684\u6700\u5e38\u89c1\u95ee\u9898\u3002\u7136\u540e\u56de\u7b54\u8fd9\u4e2a\u95ee\u9898\u3002\u6700\u540e\uff0c\u518d\u5217\u51fa4\u4e2a\u95ee\u9898\u3002",
+        "keywords_template_name": "\u83b7\u53d6\u76f8\u5173\u5173\u952e\u5b57",
+        "keywords_template_content": "$[keywords] \u662f\u6211\u7684\u8c37\u6b4c\u641c\u7d22\u5173\u952e\u5b57\u3002\u8bf7\u7ed9\u62115\u7ec4\u76f8\u5173\u5173\u952e\u8bcd\u3002"
+    }
+}

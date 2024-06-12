@@ -1,0 +1,102 @@
+{
+    "questionPlaceholder": "Fragen Sie mich etwas oder verwenden Sie \/ , um eine Eingabeaufforderung hinzuzuf\u00fcgen",
+    "loginButton": "Melden Sie sich bei OpenAI an",
+    "gptApiError": "Bitte melden Sie sich bei OpenAI an und bestehen Sie den Cloudflare-Check.",
+    "gptApiKeyError": "Falscher API-Schl\u00fcssel. Sie finden Ihren API-Schl\u00fcssel unter",
+    "paste": "Paste",
+    "copied": "kopiert",
+    "login": "Anmeldung",
+    "signup": "Anmeldung",
+    "save": "Speichern",
+    "close": "Schlie\u00dfen",
+    "cancel": "Stornieren",
+    "remove": "Entfernen",
+    "send": "Schicken",
+    "sent": "Gesendet",
+    "error": "Fehler",
+    "name": "Name",
+    "avatars": "Avatare",
+    "sending": "Senden",
+    "onlyOneMessagePerDay": "Entschuldigung, Sie k\u00f6nnen nur eine Nachricht pro Tag posten",
+    "language": "Sprache",
+    "suggestion": "Anregung",
+    "preferredLanguage": "Bevorzugte Sprache",
+    "hotkey": "Hotkey",
+    "launch": "Start",
+    "customize": "anpassen",
+    "icon": "Symbol",
+    "apiKey": "API-Schl\u00fcssel",
+    "rateUs": "Bewerten Sie uns",
+    "loginPage": {
+        "subtitle": "Greifen Sie mit dem SidebarGPT-Chat-Assistenten f\u00fcr Chrome \u00fcberall auf das ChatGPT-AI-Sprachmodell zu.",
+        "footer": "Verwenden Sie f\u00fcr eine stabilere Verbindung die"
+    },
+    "options": {
+        "general": "Allgemein",
+        "promptTemplates": "Eingabeaufforderungsvorlagen",
+        "searchPageTitle": "Suchseite",
+        "howToUse": "Wie benutzt man",
+        "suggestions": "Vorschl\u00e4ge",
+        "accessToChatGPT": "Zugriff auf ChatGPT",
+        "generalPage": {
+            "method1Subtitle": "Schnellere Chat-Antworten, aber eine instabile Verbindung.",
+            "method2Subtitle": "Stabilere Verbindung, aber langsame Chat-Antworten.",
+            "method2Link": "Folgen Sie der Anleitung, um den API-Schl\u00fcssel zu erhalten",
+            "iconSubtitle": "Greifen Sie \u00fcber das Symbol in der rechten unteren Ecke auf die Seitenleiste zu",
+            "iconWhenSelected": "Anzeigen, wenn Text ausgew\u00e4hlt ist",
+            "showAvatars": "Avatare anzeigen",
+            "openAiApiTitle": "OpenAI-API (empfohlen)"
+        },
+        "searchPage": {
+            "showSearchPanel": "Suchfeld anzeigen",
+            "whenToAskChatGPT": "Wann Sie ChatGPT fragen sollten",
+            "promptTemplate": "Aufforderungsvorlage",
+            "templateInfo": "Vorlageninfo",
+            "searchPagePanelTitle": "ChatGPT-Antwort anzeigen",
+            "always": "Stets",
+            "alwaysTriggerSubtitle": "Fragen Sie ChatGPT bei jeder Suche",
+            "questionMark": "Fragezeichen",
+            "questionMarkTriggerSubtitle": "ChatGPT fragen, ob Keywords mit einem Fragezeichen (?) enden",
+            "manually": "Manuell",
+            "manuallyTriggerSubtitle": "Fragen Sie ChatGPT nur auf Knopfdruck",
+            "addNewTemplate": "Neue Vorlage hinzuf\u00fcgen",
+            "editTemplate": "Vorlage bearbeiten",
+            "templateName": "Vorlagenname",
+            "templateContent": "Vorlageninhalt",
+            "templateContentPlaceholder": "$[keywords] im Hinweisinhalt wird automatisch durch Ihre Suchbegriffe ersetzt",
+            "templateContentFormError": "Verwenden Sie $[keywords], um auf Ihre Suchbegriffe zu verweisen",
+            "templateContentFormFillError": "Vorlageninhalte sind erforderlich."
+        },
+        "promptTemplatesPage": {
+            "addTemplate": "Neue Eingabeaufforderungsvorlage hinzuf\u00fcgen",
+            "editTemplate": "Eingabeaufforderungsvorlage bearbeiten",
+            "promptName": "Aufforderungsname",
+            "promptTemplate": "Aufforderungsvorlage"
+        },
+        "suggestionsPage": {
+            "title": "Vielen Dank, dass Sie SidebarGPT verwenden",
+            "subtitle": "Wenn Sie einen Moment Zeit haben, teilen Sie uns bitte mit, wie wir SidebarGPT verbessern k\u00f6nnen. Ihr Feedback hilft uns, das Produkt f\u00fcr alle zu verbessern, danke."
+        },
+        "apiKeyModal": {
+            "step1": "Schritt 1: Gehen Sie zur offiziellen ChatGPT-Website, um den API-Schl\u00fcssel zu erhalten",
+            "step1_1_link": "Melden Sie sich bei Ihrem ChatGPT-Konto an.",
+            "step1_1": "Wenn Sie kein Konto haben, bitte",
+            "step1_2": "Besuche den",
+            "step1_2_link": "OpenAI-API-Schl\u00fcsselseite.",
+            "step1_3": "Erstellen Sie einen neuen geheimen Schl\u00fcssel und kopieren Sie ihn wie folgt.",
+            "step2": "Schritt 2: F\u00fcgen Sie den API-Schl\u00fcssel in das Feld unten ein"
+        }
+    },
+    "searchHelper": {
+        "askGPT": "Fragen Sie ChatGPT nach dieser Abfrage",
+        "continueInChat": "Im Chat fortfahren"
+    },
+    "searchPageTemplates": {
+        "default_template_name": "Standard",
+        "default_template_content": "K\u00f6nnen Sie mir etwas \u00fcber $[keywords] sagen? Wenn m\u00f6glich, k\u00f6nntest du mir ein paar Links dazu geben? Wenn die Frage $[keywords] codebezogen ist, poste einfach den Code",
+        "question_keywords_template_name": "Schl\u00fcsselw\u00f6rter f\u00fcr Fragen",
+        "question_keywords_template_content": "Nennen Sie Ihre h\u00e4ufigste Frage zu $[keywords]. Dann beantworte diese Frage. Listen Sie abschlie\u00dfend 4 weitere Fragen auf.",
+        "keywords_template_name": "Holen Sie sich verwandte Keywords",
+        "keywords_template_content": "$[keywords] sind meine Google-Suchschl\u00fcsselw\u00f6rter. Bitte geben Sie mir 5 S\u00e4tze verwandter Keywords."
+    }
+}
